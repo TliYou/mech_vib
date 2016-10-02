@@ -1,0 +1,5 @@
+[x0] = meshgrid(-.1:.001:.1);
+[v0] = meshgrid(-1:.01:1);
+[x0,v0] = meshgrid(x,y);
+A = sqrt((10.^2)*(x0.^2)+(v0.^2))/10;
+mesh(x0,v0,A)
