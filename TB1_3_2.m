@@ -10,4 +10,6 @@ vtb1_1_mod(m,c,k,0.0003,0,tf)
 vtb1_1_mod(m,c,k,0,0.001,tf)
 vtb1_1_mod(m,c,k,-0.0003,0,tf)
 
-legend('x(0) = 0.3mm, v(0) = 0mm/s','x(0) = 0mm, v(0) = +1mm/s','x(0) = -0.3mm, v(0) = 0mm/s')
+legend('x(0) = 0.3mm, v(0) = 0mm/s',...
+    'x(0) = 0mm, v(0) = +1mm/s',...
+    'x(0) = -0.3mm, v(0) = 0mm/s')

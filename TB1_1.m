@@ -10,8 +10,7 @@ x0 = 0.001; % unit:m
 tf = 5;
 
 vtb1_1_mod(m,c,k,x0,0,tf)
-vtb1_1_mod(m,c,k,x0,0.1,tf)
-vtb1_1_mod(m,c,k,x0,1,tf)
-vtb1_1_mod(m,c,k,x0,2,tf)
+vtb1_1_mod(m,c,k,x0,0.001,tf)
+%vtb1_1_mod(m,c,k,x0,0.0002,tf)
 
-legend('v(0) = 0','v(0) = 0.1','v(0) = 1','v(0) = 2')
+legend('v(0) = 0','v(0) = 0.001','v(0) = 0.002')
