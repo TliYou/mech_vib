@@ -1,7 +1,0 @@
-%% based on txtbk [Engineering Vibration, 4th Ed, Inman], chp3 toolbox 3.3 %%
-
-% independant from vtoolbox
-function TB3_3(T)
-syms t
-f1 = -(8/pi^2)*(cos(((2*pi)/T)*t));
-f2 = -(8/pi^2)*((cos(((2*pi)/T)*t))+((cos(((6*pi)/T)*t))))

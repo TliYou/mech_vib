@@ -7,7 +7,8 @@ nf = sqrt(k/m);
 L = 0.4;
 Y = 0.2;
 syms v
-Zh = ((Y*((pi/L)*v)^2)/nf)*(((pi/L)*v)/abs((nf^2)-((pi/L)*v)^2));
+Zh = ((Y*((pi/L)*v)^2)/nf)*(((pi/L)*v)...
+    /abs((nf^2)-((pi/L)*v)^2));
 figure(1)
 ezplot(Zh,[3,10,0,1])
 title('Response Plot')
@@ -15,7 +16,8 @@ hold on
 
 %% low speed section %%
 syms v
-Zl = ((Y*((pi/L)*v)^2)/nf)*(nf/abs((nf^2)-((pi/L)*v)^2));
+Zl = ((Y*((pi/L)*v)^2)/nf)*...
+    (nf/abs((nf^2)-((pi/L)*v)^2));
 figure(2)
 ezplot(Zl,[0,2,0,0.5])
 title('Response Plot')
